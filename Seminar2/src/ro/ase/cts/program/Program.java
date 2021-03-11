@@ -15,15 +15,15 @@ public class Program {
 	
 	
 	
-	public static List<Aplicant> readAplicant(String fileName, AplicantReader reader)  throws FileNotFoundException, NumberFormatException{
-		return reader.readAplicant(fileName);
+	public static List<Aplicant> readAplicant( AplicantReader reader)  throws FileNotFoundException, NumberFormatException{
+		return reader.readAplicant();
 	}
 	
 
 	public static void main(String[] args) {
 		List<Aplicant> listaAplicanti;
 		try {
-			listaAplicanti = readAplicant("studenti.txt", new StudentReader());
+			listaAplicanti = readAplicant( new AngajatReader("angajati.txt"));
 			for(Aplicant aplicant:listaAplicanti)
 				System.out.println(aplicant.toString());
 		} catch (FileNotFoundException e) {
