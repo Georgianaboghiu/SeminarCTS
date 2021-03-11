@@ -26,7 +26,7 @@ public class AngajatReader extends AplicantReader{
 			int salariu = input2.nextInt();
 			String ocupatie = input2.next();
 			angajat.setSalariu(salariu);
-			angajat.setOcupatie(ocupatie);
+		angajat.setOcupatie(ocupatie);
 	
 			angajati.add(angajat);
 		}

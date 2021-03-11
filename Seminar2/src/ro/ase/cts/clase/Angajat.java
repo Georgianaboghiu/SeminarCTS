@@ -26,8 +26,7 @@ public class Angajat extends Aplicant{
 	public Angajat() {
 		super();
 		
-	}
-	
+	}	
 	
 	public static int getSumaFinantata() {
 		return sumaFinantata;

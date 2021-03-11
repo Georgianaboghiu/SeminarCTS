@@ -45,7 +45,6 @@ public abstract class Aplicant{
 	
 	
 
-	
 
 	public Aplicant() {
 		super();

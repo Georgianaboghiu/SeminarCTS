@@ -27,7 +27,6 @@ public abstract class AplicantReader {
 			String[] vect = new String[5];
 			for (int i = 0; i < nr; i++)
 				vect[i] = input2.next();
-
 		
 		aplicant.setNume(nume);
 		aplicant.setPrenume(prenume);

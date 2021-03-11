@@ -27,7 +27,7 @@ public class Program {
 		List<Aplicant> listaAplicanti;
 		try {
 			listaAplicanti = readAplicant( new AngajatReader("angajati.txt"));
-			for(Aplicant aplicant:listaAplicanti) {
+		for(Aplicant aplicant:listaAplicanti) {
 				System.out.println(aplicant.toString());
 				aplicant.afiseazaSumaFinantata();
 			}

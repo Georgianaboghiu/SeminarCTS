@@ -29,7 +29,7 @@ public class Student extends Aplicant {
 
 	public Student() {
 		super();
-		
+	
 	}
 	
 	public Student(String nume, String prenume, int varsta, int punctaj, int nr_proiecte, String[] denumireProiect, String facultate, int an_studii) {

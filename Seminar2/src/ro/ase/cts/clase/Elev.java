@@ -18,7 +18,7 @@ public class Elev extends Aplicant{
 	public void setTutore(String tutore) {
 		this.tutore = tutore;
 	}
-	
+
 	
 	public static int getSumaFinantata() {
 		return sumaFinantata;
