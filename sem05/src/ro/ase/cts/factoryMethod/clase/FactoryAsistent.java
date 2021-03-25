@@ -5,7 +5,8 @@ public class FactoryAsistent implements FactoryPersonal{
 	
 	@Override
 	public PersonalSpital createPersonal(String nume, double salariu) {
-		return null;
+		return new Asistent(nume, salariu);
+		//return null;
 	}
 
 }
