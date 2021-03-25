@@ -1,4 +1,5 @@
 package ro.ase.cts.main;
+import ro.ase.cts.clase.Bagaj;
 import ro.ase.cts.clase.DepartamentFinanciar;
 import ro.ase.cts.clase.DepartamentFinanciarEager;
 
@@ -30,6 +31,12 @@ DepartamentFinanciar.getInstance(21, "Popescu", 2500);
 
 System.out.println(primulDepartamentFinanciar.toString());
 System.out.println(alDoileaDepartamentFinanciar.toString());
+
+Bagaj primulBagaj=Bagaj.getInstance(112, "Dorel", 10);
+Bagaj alDoileaBagaj=Bagaj.getInstance(113, "Popescu", 15);
+
+System.out.println(primulBagaj.toString());
+System.out.println(alDoileaBagaj.toString());
 	}
 
 }
